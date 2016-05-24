@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="full-intro">
+
+    <!-- Preloader -->
+    <section id="preloader">
+        <div class="loader" id="loader">
+            <div class="loader-img"></div>
+        </div>
+    </section>
+    <!-- End Preloader -->
+    {% include nav.html %}
+    <div class="wrapper">
+        {% include sidemenu.html %}
+        <div id="fullpage">
+            {% include home.html %}
+            {% include slideshow.html %}
+            {% include marzipanfacts.html %}  
+        </div>
+        {% include js.html %}
+    </div>
+
+  </body>
+
+</html>
