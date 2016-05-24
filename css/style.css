@@ -1230,14 +1230,14 @@ form label.error {
     width:35px;
     height:35px;
     text-align:center;
-    background:rgba(0,0,0,0.8);
+    background:#061F41;
     display:block;
     border-radius:3px;
     color:#fff;
     line-height:34px;
 }
     .side-menu-btn-fix a:hover {
-        background:#e6ae49;
+        background:#CFB71E;
     }
 header.sticky .navigation a.current-ele {
     color:#e6ae49 !important;
@@ -1974,7 +1974,7 @@ header.sticky .navigation a.current-ele {
 /*-------------------------------------------------------------------------------------------*/
 /* Sidebar Menu */
 .side-menu {
-    background: #323232;
+    background: #061F41;
     z-index: 2005;
     color: #fff;
     padding: 30px;
