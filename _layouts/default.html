@@ -3,26 +3,20 @@
 
   {% include head.html %}
 
-  <body class="full-intro">
-
+  <body>
     <!-- Preloader -->
     <section id="preloader">
-        <div class="loader" id="loader">
-            <div class="loader-img"></div>
-        </div>
+        <div class="site-spinner"></div>
     </section>
     <!-- End Preloader -->
-    {% include nav.html %}
-    <div class="wrapper">
-        {% include sidemenu.html %}
-        <div id="fullpage">
+    <div id="page-wraper">
+        <div class="wrapper">
+            {% include nav.html %}
             {% include home.html %}
-            {% include slideshow.html %}
             {% include marzipanfacts.html %}  
         </div>
-        {% include js.html %}
     </div>
-
+    {% include js.html %}
   </body>
 
 </html>

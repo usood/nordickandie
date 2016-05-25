@@ -9,11 +9,12 @@ google.maps.event.addDomListener(window, 'load', init);
 function init() {
     // Basic options for a simple Google Map
     var mapOptions = {
-        // How zoomed in you want the map to start at (always required)
-        zoom: 15,
+        
+        zoom: 15, // How zoomed in you want the map to start at (always required)
+        scrollwheel: false, //set to true to enable mouse scrolling while inside the map area
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(21.170240, 72.831061), // Surat
+        center: new google.maps.LatLng(21.170240, 72.831061), // Surat, Gujarat, India
 
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps.
@@ -219,4 +220,6 @@ function init() {
         icon: 'img/map-marker.png'
 
     });
+
+
 };
